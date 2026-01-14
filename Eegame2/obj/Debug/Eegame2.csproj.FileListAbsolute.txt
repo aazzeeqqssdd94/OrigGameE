@@ -1,0 +1,11 @@
+C:\Users\erikk\source\repos\Eegame2\bin\Debug\Eegame2.exe.config
+C:\Users\erikk\source\repos\Eegame2\bin\Debug\Eegame2.exe
+C:\Users\erikk\source\repos\Eegame2\bin\Debug\Eegame2.pdb
+C:\Users\erikk\source\repos\Eegame2\obj\Debug\Eegame2.csproj.AssemblyReference.cache
+C:\Users\erikk\source\repos\Eegame2\obj\Debug\Eegame2.Form1.resources
+C:\Users\erikk\source\repos\Eegame2\obj\Debug\Eegame2.Properties.Resources.resources
+C:\Users\erikk\source\repos\Eegame2\obj\Debug\Eegame2.csproj.GenerateResource.cache
+C:\Users\erikk\source\repos\Eegame2\obj\Debug\Eegame2.csproj.CoreCompileInputs.cache
+C:\Users\erikk\source\repos\Eegame2\obj\Debug\Eegame2.exe
+C:\Users\erikk\source\repos\Eegame2\obj\Debug\Eegame2.pdb
+C:\Users\erikk\source\repos\Eegame2\obj\Debug\Eegame2.exe.config
