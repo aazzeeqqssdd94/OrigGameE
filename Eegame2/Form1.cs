@@ -24,12 +24,19 @@ namespace Eegame2
         int score = 0; // default score integer set to 0
         int playSpeed = 18; //this integer will set players speed to 18
         int backLeft = 8; // this integer will set the background moving speed to 8
-        int levelNumber = 1;
+        int currentLevelNumber = 1;
+        List<PictureBox> backup = new List<PictureBox>();
 
         public Form1()
         {
+            
             InitializeComponent();
-            levl1();                       
+            levl1();
+            levl2();
+            foreach (PictureBox p in level2)
+            {
+                this.Controls.Remove(p);
+            }
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -151,12 +158,24 @@ namespace Eegame2
                 door.Image = Properties.Resources.door_open;
                 // and we stop the timer
                 ClearLevel();
-            }
+                foreach (PictureBox x in level2)
+                {
+                    this.Controls.Add(x);
+                }
+                foreach (Control x in this.Controls)
+                {
+                    if (x is PictureBox && x.Tag != null)
+                    {
+                        if (x.Tag.ToString() == "player")
+                        {
+                            x.Location = new Point(0, 384);
+                        }
+                    }
             // if the player collides with the key picture box
             if (player.Bounds.IntersectsWith(key1.Bounds))
             {
                 // then we remove the key from the  game
-                this.Controls.Remove(key1); 
+                this.Controls.Remove(key1);
                 // change the has key boolean to true
                 hasKey = true;
             }
@@ -239,21 +258,52 @@ namespace Eegame2
             level1.Add(door);
             level1.Add(background);
 
-           
-            
+
+
         }
 
-         
-        
+        public void levl2()
+        {
+            level2.Add(platform2lvl1);
+            level2.Add(platform2lvl2);
+            level2.Add(platform2lvl3);
+            level2.Add(platform2lvl4);
+            level2.Add(platform2lvl5);
+            level2.Add(platform2lvl6);
+            level2.Add(platform2lvl7);
+            level2.Add(platform2lvl8);
+            level2.Add(platform2lvl9);
+            level2.Add(platform2lvl10);
+            level2.Add(platform2lvl11);
+            level2.Add(platform2lvl12);
+            level2.Add(platform2lvl13);
+            level2.Add(platform2lvl14);
+            level2.Add(platform2lvl15);
+            level2.Add(platform2lvl16);
+            level2.Add(platform2lvl17);
+            level2.Add(platform2lvl18);
+            level2.Add(platform2lvl19);
+            level2.Add(coin2lvl1);
+            level2.Add(coin2lvl2);
+            level2.Add(coin2lvl3);
+            level2.Add(coin2lvl4);
+            level2.Add(coin2lvl5);
+            level2.Add(key2);
+            level2.Add(door2);
+            level2.Add(background2);
+            level2.Add(platform2lvl0);
 
-        
+        }
+
+
+
 
         private void pictureBox1_Click_1(object sender, EventArgs e)
         {
 
         }
 
-       private void ClearLevel()
+        private void ClearLevel()
         {
             foreach (Control x in this.Controls)
             {
@@ -267,9 +317,41 @@ namespace Eegame2
             }
         }
 
+        //private void BackupCurrentLevels()
+        //{
+        //    foreach (Control x in this.Controls)
+        //    {
+        //        if (x is PictureBox && x.Tag != null)
+        //        {
+        //            if (x.Tag.ToString() != "player")
+        //            {
+        //                backup.Add((PictureBox)x);
+        //            }
+        //        }
+        //    }
+        //}
+
+        //private void RestoreBackupLevels()
+        //{
+        //    foreach (PictureBox x in backup)
+        //    {
+        //        this.Controls.Add(x);
+        //    }
+        //}
+
         private void platform7_Click(object sender, EventArgs e)
         {
 
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void counter()
+        {
+            
+        } 
     }
 }

@@ -57,6 +57,33 @@ namespace Eegame2
             this.platform1234 = new System.Windows.Forms.PictureBox();
             this.background = new System.Windows.Forms.PictureBox();
             this.coin2lvl2 = new System.Windows.Forms.PictureBox();
+            this.background2 = new System.Windows.Forms.PictureBox();
+            this.platform2lvl1 = new System.Windows.Forms.PictureBox();
+            this.platform2lvl2 = new System.Windows.Forms.PictureBox();
+            this.platform2lvl3 = new System.Windows.Forms.PictureBox();
+            this.platform2lvl4 = new System.Windows.Forms.PictureBox();
+            this.platform2lvl6 = new System.Windows.Forms.PictureBox();
+            this.platform2lvl7 = new System.Windows.Forms.PictureBox();
+            this.platform2lvl8 = new System.Windows.Forms.PictureBox();
+            this.platform2lvl5 = new System.Windows.Forms.PictureBox();
+            this.platform2lvl0 = new System.Windows.Forms.PictureBox();
+            this.platform2lvl9 = new System.Windows.Forms.PictureBox();
+            this.platform2lvl10 = new System.Windows.Forms.PictureBox();
+            this.platform2lvl11 = new System.Windows.Forms.PictureBox();
+            this.platform2lvl13 = new System.Windows.Forms.PictureBox();
+            this.platform2lvl14 = new System.Windows.Forms.PictureBox();
+            this.platform2lvl15 = new System.Windows.Forms.PictureBox();
+            this.platform2lvl16 = new System.Windows.Forms.PictureBox();
+            this.platform2lvl17 = new System.Windows.Forms.PictureBox();
+            this.platform2lvl18 = new System.Windows.Forms.PictureBox();
+            this.platform2lvl19 = new System.Windows.Forms.PictureBox();
+            this.platform2lvl12 = new System.Windows.Forms.PictureBox();
+            this.key2 = new System.Windows.Forms.PictureBox();
+            this.door2 = new System.Windows.Forms.PictureBox();
+            this.coin2lvl1 = new System.Windows.Forms.PictureBox();
+            this.coin2lvl4 = new System.Windows.Forms.PictureBox();
+            this.coin2lvl3 = new System.Windows.Forms.PictureBox();
+            this.coin2lvl5 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.key1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.coin3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.coin1)).BeginInit();
@@ -77,6 +104,33 @@ namespace Eegame2
             ((System.ComponentModel.ISupportInitialize)(this.platform1234)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.background)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.coin2lvl2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.background2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.key2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.door2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coin2lvl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coin2lvl4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coin2lvl3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coin2lvl5)).BeginInit();
             this.SuspendLayout();
             // 
             // gameTimer
@@ -308,17 +362,322 @@ namespace Eegame2
             this.coin2lvl2.TabStop = false;
             this.coin2lvl2.Tag = "coin";
             // 
+            // background2
+            // 
+            this.background2.BackgroundImage = global::Eegame2.Properties.Resources.HD_wallpaper_2d_pixel_art_background_10_sky_cloud_2d_environments_unity_asset_store;
+            this.background2.Location = new System.Drawing.Point(0, 0);
+            this.background2.Name = "background2";
+            this.background2.Size = new System.Drawing.Size(2000, 480);
+            this.background2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.background2.TabIndex = 49;
+            this.background2.TabStop = false;
+            this.background2.Tag = "background2";
+            // 
+            // platform2lvl1
+            // 
+            this.platform2lvl1.BackgroundImage = global::Eegame2.Properties.Resources.Nimetu;
+            this.platform2lvl1.Location = new System.Drawing.Point(0, 440);
+            this.platform2lvl1.Name = "platform2lvl1";
+            this.platform2lvl1.Size = new System.Drawing.Size(2000, 40);
+            this.platform2lvl1.TabIndex = 50;
+            this.platform2lvl1.TabStop = false;
+            this.platform2lvl1.Tag = "platform";
+            this.platform2lvl1.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
+            // platform2lvl2
+            // 
+            this.platform2lvl2.BackgroundImage = global::Eegame2.Properties.Resources.Nimetu;
+            this.platform2lvl2.Location = new System.Drawing.Point(351, 394);
+            this.platform2lvl2.Name = "platform2lvl2";
+            this.platform2lvl2.Size = new System.Drawing.Size(305, 50);
+            this.platform2lvl2.TabIndex = 51;
+            this.platform2lvl2.TabStop = false;
+            this.platform2lvl2.Tag = "platform";
+            // 
+            // platform2lvl3
+            // 
+            this.platform2lvl3.BackgroundImage = global::Eegame2.Properties.Resources.Nimetu;
+            this.platform2lvl3.Location = new System.Drawing.Point(407, 350);
+            this.platform2lvl3.Name = "platform2lvl3";
+            this.platform2lvl3.Size = new System.Drawing.Size(249, 50);
+            this.platform2lvl3.TabIndex = 52;
+            this.platform2lvl3.TabStop = false;
+            this.platform2lvl3.Tag = "platform";
+            // 
+            // platform2lvl4
+            // 
+            this.platform2lvl4.BackgroundImage = global::Eegame2.Properties.Resources.Nimetu;
+            this.platform2lvl4.Location = new System.Drawing.Point(464, 304);
+            this.platform2lvl4.Name = "platform2lvl4";
+            this.platform2lvl4.Size = new System.Drawing.Size(192, 50);
+            this.platform2lvl4.TabIndex = 53;
+            this.platform2lvl4.TabStop = false;
+            this.platform2lvl4.Tag = "platform";
+            // 
+            // platform2lvl6
+            // 
+            this.platform2lvl6.BackgroundImage = global::Eegame2.Properties.Resources.Nimetu;
+            this.platform2lvl6.Location = new System.Drawing.Point(900, 394);
+            this.platform2lvl6.Name = "platform2lvl6";
+            this.platform2lvl6.Size = new System.Drawing.Size(337, 50);
+            this.platform2lvl6.TabIndex = 54;
+            this.platform2lvl6.TabStop = false;
+            this.platform2lvl6.Tag = "platform";
+            // 
+            // platform2lvl7
+            // 
+            this.platform2lvl7.BackgroundImage = global::Eegame2.Properties.Resources.Nimetu;
+            this.platform2lvl7.Location = new System.Drawing.Point(942, 350);
+            this.platform2lvl7.Name = "platform2lvl7";
+            this.platform2lvl7.Size = new System.Drawing.Size(243, 50);
+            this.platform2lvl7.TabIndex = 55;
+            this.platform2lvl7.TabStop = false;
+            this.platform2lvl7.Tag = "platform";
+            // 
+            // platform2lvl8
+            // 
+            this.platform2lvl8.BackgroundImage = global::Eegame2.Properties.Resources.Nimetu;
+            this.platform2lvl8.Location = new System.Drawing.Point(942, 304);
+            this.platform2lvl8.Name = "platform2lvl8";
+            this.platform2lvl8.Size = new System.Drawing.Size(194, 50);
+            this.platform2lvl8.TabIndex = 56;
+            this.platform2lvl8.TabStop = false;
+            this.platform2lvl8.Tag = "platform";
+            // 
+            // platform2lvl5
+            // 
+            this.platform2lvl5.BackgroundImage = global::Eegame2.Properties.Resources.Nimetu;
+            this.platform2lvl5.Location = new System.Drawing.Point(758, 304);
+            this.platform2lvl5.Name = "platform2lvl5";
+            this.platform2lvl5.Size = new System.Drawing.Size(83, 50);
+            this.platform2lvl5.TabIndex = 57;
+            this.platform2lvl5.TabStop = false;
+            this.platform2lvl5.Tag = "platform";
+            // 
+            // platform2lvl0
+            // 
+            this.platform2lvl0.BackgroundImage = global::Eegame2.Properties.Resources.Nimetu;
+            this.platform2lvl0.Location = new System.Drawing.Point(1376, 350);
+            this.platform2lvl0.Name = "platform2lvl0";
+            this.platform2lvl0.Size = new System.Drawing.Size(127, 50);
+            this.platform2lvl0.TabIndex = 58;
+            this.platform2lvl0.TabStop = false;
+            this.platform2lvl0.Tag = "platform";
+            // 
+            // platform2lvl9
+            // 
+            this.platform2lvl9.BackgroundImage = global::Eegame2.Properties.Resources.Nimetu;
+            this.platform2lvl9.Location = new System.Drawing.Point(1539, 284);
+            this.platform2lvl9.Name = "platform2lvl9";
+            this.platform2lvl9.Size = new System.Drawing.Size(127, 50);
+            this.platform2lvl9.TabIndex = 59;
+            this.platform2lvl9.TabStop = false;
+            this.platform2lvl9.Tag = "platform";
+            // 
+            // platform2lvl10
+            // 
+            this.platform2lvl10.BackgroundImage = global::Eegame2.Properties.Resources.Nimetu;
+            this.platform2lvl10.Location = new System.Drawing.Point(1714, 223);
+            this.platform2lvl10.Name = "platform2lvl10";
+            this.platform2lvl10.Size = new System.Drawing.Size(127, 50);
+            this.platform2lvl10.TabIndex = 60;
+            this.platform2lvl10.TabStop = false;
+            this.platform2lvl10.Tag = "platform";
+            // 
+            // platform2lvl11
+            // 
+            this.platform2lvl11.BackgroundImage = global::Eegame2.Properties.Resources.Nimetu;
+            this.platform2lvl11.Location = new System.Drawing.Point(1859, 148);
+            this.platform2lvl11.Name = "platform2lvl11";
+            this.platform2lvl11.Size = new System.Drawing.Size(127, 50);
+            this.platform2lvl11.TabIndex = 61;
+            this.platform2lvl11.TabStop = false;
+            this.platform2lvl11.Tag = "platform";
+            // 
+            // platform2lvl13
+            // 
+            this.platform2lvl13.BackgroundImage = global::Eegame2.Properties.Resources.Nimetu;
+            this.platform2lvl13.Location = new System.Drawing.Point(1448, 92);
+            this.platform2lvl13.Name = "platform2lvl13";
+            this.platform2lvl13.Size = new System.Drawing.Size(127, 50);
+            this.platform2lvl13.TabIndex = 62;
+            this.platform2lvl13.TabStop = false;
+            this.platform2lvl13.Tag = "platform";
+            // 
+            // platform2lvl14
+            // 
+            this.platform2lvl14.BackgroundImage = global::Eegame2.Properties.Resources.Nimetu;
+            this.platform2lvl14.Location = new System.Drawing.Point(1195, 92);
+            this.platform2lvl14.Name = "platform2lvl14";
+            this.platform2lvl14.Size = new System.Drawing.Size(127, 50);
+            this.platform2lvl14.TabIndex = 63;
+            this.platform2lvl14.TabStop = false;
+            this.platform2lvl14.Tag = "platform";
+            // 
+            // platform2lvl15
+            // 
+            this.platform2lvl15.BackgroundImage = global::Eegame2.Properties.Resources.Nimetu;
+            this.platform2lvl15.Location = new System.Drawing.Point(956, 92);
+            this.platform2lvl15.Name = "platform2lvl15";
+            this.platform2lvl15.Size = new System.Drawing.Size(127, 50);
+            this.platform2lvl15.TabIndex = 64;
+            this.platform2lvl15.TabStop = false;
+            this.platform2lvl15.Tag = "platform";
+            // 
+            // platform2lvl16
+            // 
+            this.platform2lvl16.BackgroundImage = global::Eegame2.Properties.Resources.Nimetu;
+            this.platform2lvl16.Location = new System.Drawing.Point(714, 92);
+            this.platform2lvl16.Name = "platform2lvl16";
+            this.platform2lvl16.Size = new System.Drawing.Size(127, 50);
+            this.platform2lvl16.TabIndex = 65;
+            this.platform2lvl16.TabStop = false;
+            this.platform2lvl16.Tag = "platform";
+            // 
+            // platform2lvl17
+            // 
+            this.platform2lvl17.BackgroundImage = global::Eegame2.Properties.Resources.Nimetu;
+            this.platform2lvl17.Location = new System.Drawing.Point(454, 92);
+            this.platform2lvl17.Name = "platform2lvl17";
+            this.platform2lvl17.Size = new System.Drawing.Size(127, 50);
+            this.platform2lvl17.TabIndex = 66;
+            this.platform2lvl17.TabStop = false;
+            this.platform2lvl17.Tag = "platform";
+            // 
+            // platform2lvl18
+            // 
+            this.platform2lvl18.BackgroundImage = global::Eegame2.Properties.Resources.Nimetu;
+            this.platform2lvl18.Location = new System.Drawing.Point(209, 92);
+            this.platform2lvl18.Name = "platform2lvl18";
+            this.platform2lvl18.Size = new System.Drawing.Size(127, 50);
+            this.platform2lvl18.TabIndex = 67;
+            this.platform2lvl18.TabStop = false;
+            this.platform2lvl18.Tag = "platform";
+            // 
+            // platform2lvl19
+            // 
+            this.platform2lvl19.BackgroundImage = global::Eegame2.Properties.Resources.Nimetu;
+            this.platform2lvl19.Location = new System.Drawing.Point(0, 92);
+            this.platform2lvl19.Name = "platform2lvl19";
+            this.platform2lvl19.Size = new System.Drawing.Size(127, 50);
+            this.platform2lvl19.TabIndex = 68;
+            this.platform2lvl19.TabStop = false;
+            this.platform2lvl19.Tag = "platform";
+            // 
+            // platform2lvl12
+            // 
+            this.platform2lvl12.BackgroundImage = global::Eegame2.Properties.Resources.Nimetu;
+            this.platform2lvl12.Location = new System.Drawing.Point(1663, 92);
+            this.platform2lvl12.Name = "platform2lvl12";
+            this.platform2lvl12.Size = new System.Drawing.Size(70, 50);
+            this.platform2lvl12.TabIndex = 69;
+            this.platform2lvl12.TabStop = false;
+            this.platform2lvl12.Tag = "platform";
+            // 
+            // key2
+            // 
+            this.key2.Image = global::Eegame2.Properties.Resources.key;
+            this.key2.Location = new System.Drawing.Point(25, 43);
+            this.key2.Name = "key2";
+            this.key2.Size = new System.Drawing.Size(90, 47);
+            this.key2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.key2.TabIndex = 70;
+            this.key2.TabStop = false;
+            this.key2.Tag = "key";
+            // 
+            // door2
+            // 
+            this.door2.Image = global::Eegame2.Properties.Resources.door_closed;
+            this.door2.Location = new System.Drawing.Point(768, 354);
+            this.door2.Name = "door2";
+            this.door2.Size = new System.Drawing.Size(60, 90);
+            this.door2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.door2.TabIndex = 71;
+            this.door2.TabStop = false;
+            this.door2.Tag = "door";
+            // 
+            // coin2lvl1
+            // 
+            this.coin2lvl1.Image = global::Eegame2.Properties.Resources.coin;
+            this.coin2lvl1.Location = new System.Drawing.Point(901, 360);
+            this.coin2lvl1.Name = "coin2lvl1";
+            this.coin2lvl1.Size = new System.Drawing.Size(35, 30);
+            this.coin2lvl1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.coin2lvl1.TabIndex = 72;
+            this.coin2lvl1.TabStop = false;
+            this.coin2lvl1.Tag = "coin";
+            // 
+            // coin2lvl4
+            // 
+            this.coin2lvl4.Image = global::Eegame2.Properties.Resources.coin;
+            this.coin2lvl4.Location = new System.Drawing.Point(1386, 304);
+            this.coin2lvl4.Name = "coin2lvl4";
+            this.coin2lvl4.Size = new System.Drawing.Size(35, 30);
+            this.coin2lvl4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.coin2lvl4.TabIndex = 73;
+            this.coin2lvl4.TabStop = false;
+            this.coin2lvl4.Tag = "coin";
+            // 
+            // coin2lvl3
+            // 
+            this.coin2lvl3.Image = global::Eegame2.Properties.Resources.coin;
+            this.coin2lvl3.Location = new System.Drawing.Point(779, 268);
+            this.coin2lvl3.Name = "coin2lvl3";
+            this.coin2lvl3.Size = new System.Drawing.Size(35, 30);
+            this.coin2lvl3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.coin2lvl3.TabIndex = 74;
+            this.coin2lvl3.TabStop = false;
+            this.coin2lvl3.Tag = "coin";
+            // 
+            // coin2lvl5
+            // 
+            this.coin2lvl5.Image = global::Eegame2.Properties.Resources.coin;
+            this.coin2lvl5.Location = new System.Drawing.Point(261, 56);
+            this.coin2lvl5.Name = "coin2lvl5";
+            this.coin2lvl5.Size = new System.Drawing.Size(35, 30);
+            this.coin2lvl5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.coin2lvl5.TabIndex = 75;
+            this.coin2lvl5.TabStop = false;
+            this.coin2lvl5.Tag = "coin";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(599, 481);
-            this.Controls.Add(this.coin2lvl2);
+            this.ClientSize = new System.Drawing.Size(598, 481);
+            this.Controls.Add(this.coin2lvl5);
+            this.Controls.Add(this.coin2lvl3);
+            this.Controls.Add(this.coin2lvl4);
+            this.Controls.Add(this.coin2lvl1);
+            this.Controls.Add(this.door2);
+            this.Controls.Add(this.key2);
+            this.Controls.Add(this.platform2lvl12);
+            this.Controls.Add(this.platform2lvl19);
+            this.Controls.Add(this.platform2lvl18);
+            this.Controls.Add(this.platform2lvl17);
+            this.Controls.Add(this.platform2lvl16);
+            this.Controls.Add(this.platform2lvl15);
+            this.Controls.Add(this.platform2lvl14);
+            this.Controls.Add(this.platform2lvl13);
+            this.Controls.Add(this.platform2lvl11);
+            this.Controls.Add(this.platform2lvl10);
+            this.Controls.Add(this.platform2lvl9);
+            this.Controls.Add(this.platform2lvl0);
+            this.Controls.Add(this.platform2lvl5);
+            this.Controls.Add(this.platform2lvl8);
+            this.Controls.Add(this.platform2lvl7);
+            this.Controls.Add(this.platform2lvl6);
+            this.Controls.Add(this.platform2lvl4);
+            this.Controls.Add(this.platform2lvl3);
+            this.Controls.Add(this.platform2lvl2);
             this.Controls.Add(this.txtScore);
+            this.Controls.Add(this.platform2lvl1);
+            this.Controls.Add(this.player);
+            this.Controls.Add(this.background2);
+            this.Controls.Add(this.coin2lvl2);
             this.Controls.Add(this.key1);
             this.Controls.Add(this.coin3);
             this.Controls.Add(this.coin1);
-            this.Controls.Add(this.player);
             this.Controls.Add(this.door);
             this.Controls.Add(this.platform15);
             this.Controls.Add(this.platform16);
@@ -358,6 +717,33 @@ namespace Eegame2
             ((System.ComponentModel.ISupportInitialize)(this.platform1234)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.background)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.coin2lvl2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.background2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.platform2lvl12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.key2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.door2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coin2lvl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coin2lvl4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coin2lvl3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coin2lvl5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -390,6 +776,33 @@ namespace Eegame2
         private System.Windows.Forms.Timer gameTimer;
         private System.Windows.Forms.Label txtScore;
         private PictureBox coin2lvl2;
+        private PictureBox background2;
+        private PictureBox platform2lvl1;
+        private PictureBox platform2lvl2;
+        private PictureBox platform2lvl3;
+        private PictureBox platform2lvl4;
+        private PictureBox platform2lvl6;
+        private PictureBox platform2lvl7;
+        private PictureBox platform2lvl8;
+        private PictureBox platform2lvl5;
+        private PictureBox platform2lvl0;
+        private PictureBox platform2lvl9;
+        private PictureBox platform2lvl10;
+        private PictureBox platform2lvl11;
+        private PictureBox platform2lvl13;
+        private PictureBox platform2lvl14;
+        private PictureBox platform2lvl15;
+        private PictureBox platform2lvl16;
+        private PictureBox platform2lvl17;
+        private PictureBox platform2lvl18;
+        private PictureBox platform2lvl19;
+        private PictureBox platform2lvl12;
+        private PictureBox key2;
+        private PictureBox door2;
+        private PictureBox coin2lvl1;
+        private PictureBox coin2lvl4;
+        private PictureBox coin2lvl3;
+        private PictureBox coin2lvl5;
     }
 }
 
