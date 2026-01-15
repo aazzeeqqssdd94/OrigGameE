@@ -171,6 +171,8 @@ namespace Eegame2
                             x.Location = new Point(0, 384);
                         }
                     }
+                }
+            }
             // if the player collides with the key picture box
             if (player.Bounds.IntersectsWith(key1.Bounds))
             {
@@ -186,8 +188,8 @@ namespace Eegame2
                 gameTimer.Stop(); // stop the timer
                 MessageBox.Show("You Died!!!"); // show the message box
             }
+            
         }
-
 
         private void keyisdown(object sender, KeyEventArgs e)
         {
